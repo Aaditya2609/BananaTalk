@@ -1,8 +1,8 @@
 var buttonTranslate=document.querySelector("#translate");
-var textInput=document.querySelector("textArea");
+var textInput=document.querySelector("#textArea");
+var output=document.querySelector("#output")
 function clickEventHandler()
 {
-    console.log("Button CLicked Translation Starting");
-    console.log(textInput.value);
+   output.innerText="Translated Text :"+textInput.value;
 }
 buttonTranslate.addEventListener("click",clickEventHandler);
