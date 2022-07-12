@@ -2,57 +2,68 @@
 :root
 {
     --primary: #ffe135;
+    --secondary:#fef08a;
 }
 *
 {
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
 }
 body
 {
     font-family: 'Mouse Memoirs', sans-serif;
-    margin: 0px;
+    background-color: var(--secondary);
 }
 header
 {
     text-align: center;
     background-color: #ffe135;
+    padding: 0.75rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 header h1{
-    font-size: xx-large;
+    font-size: 55px;
 }
 p
 {
+
     margin: auto;
     font-size:larger;
     max-width: 800px;
 }
 
 
-
 textarea
 {
-    font-size: large;
+    font-size: 20px;
     display: block;
     text-align: center;
-    height: 200px;
-    width: 600px;
+    height: 25vh;
+    width: 60%;
     padding: 1rem;
     margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    /* background-color: var(--secondary); */
     
 }
 #output
 {
-    font-size: large;
+    font-size: 20px;
     margin:auto;
     border: 1px solid;
-    height: 100px;
-    width: 400px;
+    height: 12.5vh;
+    width: 40%;
     padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
 }
 button{
     display: block;
-    height: 100px;
+    height: 50px;
     width: 200px;
     margin: auto;
     border-radius: 2rem;
@@ -63,7 +74,7 @@ button{
 #span-text1
 {
     display: block;
-    font-size: large;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     margin: auto;
@@ -72,4 +83,7 @@ footer
 {
     background-color: var(--primary);
     text-align: center;
+    margin-top:1.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
